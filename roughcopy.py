@@ -40,3 +40,33 @@
 
 
 # print(anagram(s,t))
+
+
+# arr = [0,0,1,1,1,2,2]
+
+# arr1 = []
+# def removeDup (arr):
+#     for i in arr:
+#         if i in arr1 : 
+#             print('aleardy in arr1 so moving on')
+#         else : 
+#             arr1.append(i)
+#     return (len(arr1))
+        
+
+# print(removeDup(arr))
+
+# arr = [2,7,11,15]
+# t = 9
+
+# def twoSum(arr,t):
+#     m = {}
+#     for i, j in enumerate(arr):
+#         newt = t-j
+#         if newt in m:
+#             return [m[newt],i]
+#         m[j] = i
+
+
+
+# print(twoSum(arr,t))

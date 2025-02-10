@@ -72,5 +72,26 @@
 # print(twoSum(arr,t))
 
 
-st = 'abccabcabcc'
+# st = 'abccabcabcc'
 
+# def longestSubString(st):
+
+#     return
+
+# print(longestSubString(st))
+
+arr = [False, False, True, True, True]
+
+def inoft(arr):
+    left,right = 0, len(arr)-1
+    first_true_index = -1
+    while left <= right:
+        mid = (left + right)//2
+        if arr[mid]:
+            first_true_index = mid
+            right = mid -1
+        else: 
+            left = mid + 1
+    return first_true_index
+
+print(inoft(arr))
